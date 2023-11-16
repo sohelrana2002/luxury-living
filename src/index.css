@@ -1,0 +1,40 @@
+/* Merriweather */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+
+/* Assistant */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Assistant", sans-serif;
+}
+
+.hero-title {
+  font-family: "Merriweather", serif;
+}
+
+.wrapper {
+  @apply w-[90%] mx-auto;
+}
+
+.padding {
+  @apply py-10 md:py-20;
+}
+
+.section-padding {
+  @apply py-10 md:py-20 px-[5%] mx-auto;
+}
+
+.nav-items a {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.boxShadow {
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
