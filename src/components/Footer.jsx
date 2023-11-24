@@ -31,7 +31,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-2">
               <MdMarkEmailRead />
-              <p>cedargardens@gmail.com</p>
+              <p>leeclarkeltd@gmail.com</p>
             </div>
           </div>
         </div>
